@@ -2,8 +2,6 @@
 
 A real-time human detection and person re-identification system using **YOLOv6** for object detection and **OSNet** (via **Torchreid**) for feature extraction and matching. Evaluated on public datasets with **MOTChallenge** metrics.
 
----
-
 ## 🚀 Overview
 
 This project performs:
@@ -11,8 +9,6 @@ This project performs:
 - **Feature extraction** using pretrained **OSNet** models.
 - **Human-to-human matching** with **cosine similarity**.
 - **Real-time tracking and identity assignment** across frames.
-
----
 
 ## 📦 Technologies Used
 
@@ -23,8 +19,6 @@ This project performs:
 | Real-Time Video Processing | OpenCV, imutils                        |
 | Feature Similarity         | Cosine Similarity (NumPy, Torch)       |
 | Evaluation                 | MOTChallenge (MOTA, IDF1 metrics)      |
-
----
 
 ## 📈 Achievements
 
